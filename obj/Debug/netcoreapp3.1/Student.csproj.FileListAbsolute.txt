@@ -1,0 +1,13 @@
+/Users/wemabank/RiderProjects/Student/bin/Debug/netcoreapp3.1/Student.deps.json
+/Users/wemabank/RiderProjects/Student/bin/Debug/netcoreapp3.1/Student.runtimeconfig.json
+/Users/wemabank/RiderProjects/Student/bin/Debug/netcoreapp3.1/Student.runtimeconfig.dev.json
+/Users/wemabank/RiderProjects/Student/bin/Debug/netcoreapp3.1/Student.dll
+/Users/wemabank/RiderProjects/Student/bin/Debug/netcoreapp3.1/Student.pdb
+/Users/wemabank/RiderProjects/Student/obj/Debug/netcoreapp3.1/Student.csproj.AssemblyReference.cache
+/Users/wemabank/RiderProjects/Student/obj/Debug/netcoreapp3.1/Student.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wemabank/RiderProjects/Student/obj/Debug/netcoreapp3.1/Student.AssemblyInfoInputs.cache
+/Users/wemabank/RiderProjects/Student/obj/Debug/netcoreapp3.1/Student.AssemblyInfo.cs
+/Users/wemabank/RiderProjects/Student/obj/Debug/netcoreapp3.1/Student.csproj.CoreCompileInputs.cache
+/Users/wemabank/RiderProjects/Student/obj/Debug/netcoreapp3.1/Student.dll
+/Users/wemabank/RiderProjects/Student/obj/Debug/netcoreapp3.1/Student.pdb
+/Users/wemabank/RiderProjects/Student/obj/Debug/netcoreapp3.1/Student.genruntimeconfig.cache
