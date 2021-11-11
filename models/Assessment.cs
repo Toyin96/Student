@@ -16,9 +16,10 @@ namespace Student.models
             return TotalNumberOfCoursesTaken;
         }
 
-        public Dictionary<string, char> AssignGrade(List<Student> students)
+        public List<Student> AssignGrade(List<Student> students)
         {
             Dictionary<string, char> results = new Dictionary<string, char>();
+            List<Student> newStudentsList = new List<Student>();
             foreach (var student in students)
             {
                 foreach (var course in student.Courses)
@@ -34,9 +35,10 @@ namespace Student.models
                         results.Add(course.Key, grade);
                     }
                 }
+                newStudentsList.Add(student);
             }
 
-            return results;
+            return newStudentsList;
         }
     }
 }
