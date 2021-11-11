@@ -16,22 +16,24 @@ namespace Student.models
             return TotalNumberOfCoursesTaken;
         }
 
-        public List<Student> AssignGrade(List<Student> students)
+        public List<Student> ComputeGrade(List<Student> students)
         {
             Dictionary<string, char> results = new Dictionary<string, char>();
             List<Student> newStudentsList = new List<Student>();
+            char grade;
+            
             foreach (var student in students)
             {
                 foreach (var course in student.Courses)
                 {
                     if (course.Value > 50)
                     {
-                        var grade = 'p';
+                        grade = 'p';
                         results.Add(course.Key, grade);
                     }
                     else
                     {
-                        var grade = 'f';
+                        grade = 'f';
                         results.Add(course.Key, grade);
                     }
                 }
